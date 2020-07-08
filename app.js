@@ -270,11 +270,11 @@ document.addEventListener('keyup', function(event) {
 	if (event.keyCode == 32) unicorn.active = false
 })
 
-canvas.addEventListener('touchstart', function(event) {
+body.addEventListener('touchstart', function(event) {
 	unicorn.active = true
 })
 
-canvas.addEventListener('touchend', function(event) {
+body.addEventListener('touchend', function(event) {
 	unicorn.active = false
 })
 
